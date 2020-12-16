@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=clustvarsel
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clustvarsel-feedstock/blob/master/LICENSE.txt)
 
 Summary: Variable selection for Gaussian model-based clustering as implemented in the 'mclust' package. The methodology allows to find the (locally) optimal subset of variables in a data set that have group/cluster information. A greedy or headlong search can be used, either in a forward-backward or backward-forward direction, with or without sub-sampling at the hierarchical clustering stage for starting 'mclust' models. By default the algorithm uses a sequential search, but parallelisation is also available.
-
-
 
 Current build status
 ====================
