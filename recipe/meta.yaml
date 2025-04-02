@@ -1,4 +1,4 @@
-{% set version = "2.3.4" %}
+{% set version = "2.3.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clustvarsel_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clustvarsel/clustvarsel_{{ version }}.tar.gz
-  sha256: 3da13e4a58116f5bff59a934721f41c277569f03d57459929123cca02573fb43
+  sha256: c7cd2811eed9980bb5bdbb35fa82da6e7816145e6e2865ed64ff76dbdbed07d7
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
